@@ -2,7 +2,7 @@ function subF()
 {
     var query = document.getElementById('cityInput').value;
     console.log(query);
-    const urll = "http://api.openweathermap.org/data/2.5/forecast?q=" + query + "&appid=56dea2d5f6c549faa0d2c1165f767326&units=metric#";
+    const urll = "https://api.openweathermap.org/data/2.5/forecast?q=" + query + "&appid=56dea2d5f6c549faa0d2c1165f767326&units=metric#";
     ;(async () => {
         const response = await axios({
           url: urll,
@@ -21,7 +21,7 @@ function subF()
         var lis = response.data.list;
         var lenn = lis.length;
         var last = lis[0].dt_txt
-        var iconUrl = 'http://openweathermap.org/img/wn/' + icon + '@2x.png'
+        var iconUrl = 'https://openweathermap.org/img/wn/' + icon + '@2x.png'
 
         var now = new Date();
         var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
