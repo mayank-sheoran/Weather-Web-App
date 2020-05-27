@@ -111,5 +111,6 @@
     border-radius: 100%;
     display: block;
     padding-top: 5rem;
+    padding-bottom: 0;
     margin: auto auto;
 }
