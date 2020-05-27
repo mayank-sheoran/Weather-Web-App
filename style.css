@@ -103,3 +103,13 @@
 {
     font-family: "Chelsea Market", cursive;
 }
+
+.photucss
+{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    display: block;
+    padding-top: 5rem;
+    margin: auto auto;
+}
