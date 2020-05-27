@@ -54,7 +54,7 @@ function subF()
         var curDay = days[ now.getDay() ];
 
 
-        document.getElementById('java-html0').innerHTML+= '<h3 class="text-center dayy">'+ curDay.substring(0,3) + '</h3>'+
+        document.getElementById('java-html0').innerHTML+= '<h3 class="text-center dayy">Current</h3>'+
         '<div class="d-flex flex-row">'+
         '<div class="d-flex flex-column text-center">'+
         '<img src="' + iconUrl + '" alt="" style="border-right: 1px solid whitesmoke; float: left; margin: 0 1rem; padding: 0 1rem;">'+
@@ -71,6 +71,7 @@ function subF()
         '</div>'+
         '</div>'+
         '<h3 class="text-center dayy">' + date + '/' + month + '/' + year + '</h3>'
+
 
 
 
