@@ -84,20 +84,32 @@
 .card-trans
 {
     background-color: rgba(245, 245, 245, 0.4) !important;
-    
 }
 
 .weather-disc
 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 
 .degree
 {
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Open Sans Condensed', cursive;
+    font-size: 35px;
+    padding-left: 1rem;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    
+}
+
+.faltu
+{
+    font-family: 'Exo 2', sans-serif;
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 .dayy
@@ -107,11 +119,10 @@
 
 .photucss
 {
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
     border-radius: 100%;
     display: block;
-    padding-top: 5rem;
     padding-bottom: 0;
     margin: 0 auto;
 }
