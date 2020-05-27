@@ -19,7 +19,7 @@
 
 .main-site
 {
-    height: 92vh;
+    height: 100vh;
     width: auto;
     border-style: none;
     z-index: 0;
@@ -78,6 +78,7 @@
 .container
 {
     margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 .card-trans
@@ -112,5 +113,5 @@
     display: block;
     padding-top: 5rem;
     padding-bottom: 0;
-    margin: auto auto;
+    margin: 0 auto;
 }
